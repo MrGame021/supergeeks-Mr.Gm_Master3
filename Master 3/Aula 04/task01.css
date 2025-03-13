@@ -1,0 +1,17 @@
+#items{
+    display: flex;
+    gap: 4px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    > label{
+    background-color: black;
+    color: white;
+    border: 5px solid black;
+    padding: 3px;
+    }
+    > .super{
+        background-color: red;
+        border-color: red;
+    }
+}
+
