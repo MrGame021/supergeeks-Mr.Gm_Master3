@@ -15,6 +15,13 @@
 //    }
 //}
 
+//txt = ' Bruno '
+//txtForm = txt.trim
+// SAIDA = 'Bruno'
+
+//txt = 'teclado cinza'
+//Split = txt.split('c')
+// SAIDA = (3) ['te', 'lado', 'inza']
 
 function enter(){
     txt = document.getElementById('enter').value
