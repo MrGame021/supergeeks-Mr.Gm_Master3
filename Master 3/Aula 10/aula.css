@@ -1,0 +1,12 @@
+#box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: greenyellow;
+}
+#n1{
+    height: 10px 10px;
+}
+#n2{
+    height: 10px 10px;
+}

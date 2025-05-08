@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="aula.js"></script>
+    <link rel="stylesheet" href="aula.css">
+</head>
+<body>
+    
+    <div id="box"></div>
+    <hr>
+    <button onclick="paintBox('greenyellow')">Cor padrão</button><br>
+    <button onclick="paintBox('red')">Pintar de Vermelho</button><br>
+    <button onclick="paintBox('blue')">Pintar de Azul</button><br>
+    <button onclick="paintBox('#ffaa00')">Pintar de Laranja</button>
+
+    <br><input id="cor" type="color"><button onclick="paintBox2()">Pintar</button>
+
+    <hr>
+    Escreva um número de tamanho para a caixa...
+    <input id="n1" type="number" placeholder="Altura" min="0" max="1300"><input id="n2" type="number" placeholder="Largura" min="0" max="1300"><button onclick="tamanhoBox()">Mudar</button>
+
+
+
+</body>
+</html>
