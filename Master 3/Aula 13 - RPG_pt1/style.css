@@ -1,0 +1,9 @@
+.ficha{
+    border: 2px solid black;
+}
+#fichaP{
+    margin-top: 10px;
+    >img{
+        height: 150px;
+    }
+}

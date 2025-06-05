@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <h1>RPG</h1>
+
+    <div id="ficha" class="ficha">
+        <div class="perso">
+            Nome: <input id="nome" type="text" placeholder="Digite aqui...">
+            Foto: <input id="foto" type="text" placeholder="Cole a URL...">
+        </div>
+        <div class="perso&Arma">
+            <h3><u>Atributos</u>:</h3>
+            <b>Você tem 8 pontos totais para gastar nos atributos:<br><br>PONTOS DISPONÍVEIS: 08/08</b>
+            <ul>
+                <li>Força(FOR) <input type="number" id="for"></li>
+                <li>Destreza(DES) <input type="number" id="des"></li>
+                <li>Constituição(CON) <input type="number" id="con"></li>
+                <li>Inteligência(INT) <input type="number" id="int"></li>
+                <li>Carisma(CAR) <input type="number" id="car"></li>
+                <br>
+                <li>Arma: 
+                    <select name="" id="arma">
+                        <option value="Desarmado">Desarmado ✋</option>
+                        <option value="Espada">Espada ⚔️</option>
+                        <option value="Bastão">Bastão 🏏</option>
+                        <option value="Arco">Arco 🏹</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+        <button onclick="conFicha()">Confirmar ficha</button>
+    </div>
+
+    <div id="fichaP" class="ficha">
+        <img src="img.png" alt="Foto do personagem">
+        <h1>NOME</h1>
+        <br>
+        <label>Nível(Nvl): 1</label> | <label>Pontos de Vida(Pv): 11</label> | <label>Armadura: 11</label>
+        <hr>
+        <label>Força(FOR): 0</label> | <label>Destreza(DES): 0</label> | <label>Constituição(CON): 0</label> | <label>Inteligência(INT): 0</label> | <label>Carisma(CAR): 0</label>
+    </div>
+
+</body>
+</html>
