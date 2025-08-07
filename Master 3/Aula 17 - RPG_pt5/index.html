@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <h1>RPG</h1>
+    <div class="corpoFicha">
+        <div id="ficha" class="ficha">
+            <div class="perso">
+                <div>Nome: <input class="pt1" id="nome" type="text" placeholder="Digite aqui..."></div>
+                <div>Foto: <input class="pt1" id="foto" type="text" placeholder="Cole a URL..."></div>
+            </div>
+            <div class="persoEArma">
+                <h3><u>Atributos</u>:</h3>
+                <b>Você tem 80 pontos totais para gastar nos atributos:<br><br>PONTOS DISPONÍVEIS: 20/20</b>
+                <br><br>OBS: Cada nível total de atributo são usados 2 pontos. quantidade base é 10. Voce ganha 20 pontos a mais para poder fazer o seu personagem do seu jeito. 10pt = 0; 16pt = 3
+                <ul>
+                    <li>Força(FOR) <input type="number" id="for" min="10" value="10"></li>
+                    <li>Destreza(DES) <input type="number" id="des" min="10" value="10"></li>
+                    <li>Constituição(CON) <input type="number" id="con" min="10" value="10"></li>
+                    <li>Inteligência(INT) <input type="number" id="int" min="10" value="10"></li>
+                    <li>Sabedoria(SAB) <input type="number" id="sab" min="10" value="10"></li>
+                    <li>Carisma(CAR) <input type="number" id="car" min="10" value="10"></li>
+                    <br>
+                    <li>Raça:
+                        <select name="" id="raca">
+                            <option value="Anao">Anão ⚒️</option>
+                            <option value="Elfo">Elfo 🧝</option>
+                            <option value="Medusa">Medusa 🐍</option>
+                        </select>
+                    </li>
+                    <br>
+                    <li>Classe:
+                        <select name="" id="classe">
+                            <option value="Cacador">Caçador</option>
+                            <option value="Guerreiro">Guerreiro</option>
+                            <option value="Ladino">Ladino</option>
+                        </select>
+                    </li>
+                    <br>
+                    <li>Arma: 
+                        <select name="" id="arma">
+                            <option value="Desarmado">Desarmado ✋</option>
+                            <option value="Espada">Espada ⚔️</option>
+                            <option value="Bastão">Bastão 🏏</option>
+                            <option value="Arco">Arco 🏹</option>
+                        </select>
+                    </li>
+                    <br>
+                    <li>Nivel: <input type="number" id="nvl" min="1" max="20" value="1"></li>
+                </ul>
+            </div>
+            <button onclick="conFicha()">Confirmar ficha</button>
+        </div>
+
+        <div id="fichaP" class="ficha">
+            <img src="img.png" alt="Foto do personagem">
+            <h1 id="nomeP">NOME</h1>
+            <br>
+            Nível(Nvl): <label id="nvlP"></label> | Pontos de Vida(Pv): <label id="pvP"></label> | Pontos de Mana(Pm): <label id="pmP"></label>  | Armadura: <label id="defP">0</label>
+            <hr>
+            Força(FOR): <label id="forP"></label> | Destreza(DES): <label id="desP"></label> | Constituição(CON): <label id="conP"></label> | Inteligência(INT): <label id="intP"></label> | Sabedoria(SAB): <label id="sabP"></label> | Carisma(CAR): <label id="carP"></label>
+        </div>
+    </div>
+
+</body>
+</html>

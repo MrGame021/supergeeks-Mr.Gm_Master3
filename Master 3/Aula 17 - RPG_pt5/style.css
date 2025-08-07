@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(253, 165, 165);
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.corpoFicha{
+    margin-inline: 10%;
+    padding: 4px;
+    border: 2px solid blue;
+
+    .perso{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 12px;
+        .pt1{
+            width: 40%;;
+        }
+    }
+    .ficha{
+        border: 2px solid black;
+        margin-inline: 5%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    #fichaP{
+        margin-top: 10px;
+        display: none;
+        >img{
+            height: 150px;
+        }
+    }
+}
+.persoEArma{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    b{
+        display: flex;
+        align-content: baseline;
+    }
+}
+
