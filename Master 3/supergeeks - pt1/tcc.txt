@@ -1,0 +1,59 @@
+                             TRABALHO DE CONCLUSÃO MASTER GEEKS 2:
+-----------------------------------------------------------------------------------------------------------
+
+Seu objetivo é projetar e desenvolver um site utilizando as linguagens HTML e CSS aprendidas em aula.
+A escolha da temática do site é livre por parte do aluno (por exemplo: um portifólio, fórum, loja online,
+jogo, landing page, portal de notícias, streaming, entre outros), o site pode ser sobre algum assunto
+que você gosta!
+
+Você é livre para se inspirar em sites já existentes e utilizar como base elementos populares como por
+exemplo navbars, cards e containers. Mas procure dar uma identidade visual para seu projeto, criando um
+logo, pense na paleta de cores, fonte e estilo dos elementos que irá utilizar, use a criatividade ao seu
+favor!
+
+Lembre-se que este será um site com propósito de aprendizado, no final ele poderá ser publicado na web
+pelo Github para ser acessado mas as interações, formulários, botões, compras não irão "funcionar de
+verdade" porque as páginas por enquanto são estáticas. Aprenderemos a torna-las dinâmicas no Master
+Geeks 3 com a linguagem Javascript!
+
+Observações: Atente-se à manter os códigos e arquivos organizados, procure salvar no Github no fim de
+toda aula para não perder seu progresso. Consulte seu instrutor sempre que precisar de ajuda. No final do
+curso, os projetos serão apresentados pelos alunos para os pais e poderá ser uma oportunidade de empresas
+começarem a conhecer o trabalho de vocês!
+
+-----------------------------------------------------------------------------------------------------------
+
+
+NOME: Murillo da Silva Souza
+
+GITHUB: https://www.github.com/Mrgame021/MrGame021.github.io
+
+NOME DO SITE: (à definir)
+
+DESCRIÇÃO DO SITE:
+Um site de vender produtos artesanais(biscuit) para minha mãe, para posteriormente ela poder um meio de
+venda online. ------> ideia inicial
+Uma pagina de vendas, tendo algumas divisoes(filtros) dentro do site, contendo tambem outras "sessoes" 
+dentro do site, que seria a parte da loja, um pouco mais sobre a artesã, carrinho de
+compras e sistema de login.
+
+PÁGINAS:
+
+index.html	    Página inicial
+login.html		Página para logar no site
+loja.html		Página para escolher o que comprar
+carrinho.html   Página para ver o que escolheu
+sobre.html      Página para poder conhecer um pouco mais sobre a "dona" do site(artesã)
+
+-----------------------------------------------------------------------------------------------------------
+
+                                                ANOTAÇÕES:
+
+-----------------------------------------------------------------------------------------------------------
+
+* pag index: pronta!
+pag loja: ver fotos pra conteudo(+/- pag youtube{containers/cards})
+pag carrinho: ver fotos pra conteudo e ser feita(parecido com pag login)
+* pag login: pronta!
+
+-----------------------------------------------------------------------------------------------------------
