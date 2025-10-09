@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muri's Arts Biscuit</title>
+    <link rel="stylesheet" href="configuracoes_gerais.css">
+    <link rel="stylesheet" href="loja.css">
+    <link rel="stylesheet" href="carrinho.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="Icon" href="icon.jpg">
+</head>
+<body>
+    <nav>
+        <div class="icon">
+            <img src="icon.png" alt="Ícone do site">
+        </div>
+        <img src="logo.jpg" alt="Logo do site">
+        <input type="text" placeholder="Search...">
+        <div id="redirect">
+            <a href="index.html"><i class="fa fa-home"></i><label>Home</label></a>
+            <a href="loja.html"><i class="fa fa-cart-plus"></i><label>Loja</label></a>
+            <a id="carrinho" href="carrinho.html"><i class="fa fa-shopping-cart"></i><label>Compras</label></a>
+            <a href="login.html"><i class="fa fa-user-circle"></i><label>Login</label></a>
+            
+            <div class="dropdown">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+                <div>
+                    <a href="index.hmtl"><i class="fa fa-home"></i></a>
+                    <a href="loja.html"><i class="fa fa-cart-plus"></i></a>
+                    <a href="carrinho.html"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="login.html"><i class="fa fa-user-circle"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <h1>Carrinho</h1>
+        <br>
+        <p>
+            <div>
+                <div class="cardss">
+                    <div>
+                        <img src="foto01.jpg" alt="produto 1">
+                        <label>
+                            Margarida com presente - <label id="preco">R$15,00</label>
+                        </label>
+                    </div>
+                    <div>
+                        <img src="foto02.jpg" alt="produto 2">
+                        <label>
+                            Sherek com o globo terrestre - <label id="preco">R$12,00</label>
+                        </label>
+                    </div>
+                    <div>
+                        <img src="foto03.jpg" alt="produto 3">
+                        <label>
+                            Santíssima trindade - <label id="preco">R$20,00</label>
+                        </label>
+                    </div>
+                </div>
+                <div class="custoGeral">
+                    <h3>Resumo</h3>
+                    <div><label id="tabela">Subtotal</label><label id="tabela2">R$47,00</label></div>
+                    <div><label id="tabela">Frete</label><label id="tabela2">R$14,90</label></div>
+                    <div><label id="tabela">Total estimado</label><label id="tabela2">R$61,90</label></div>
+                    <a href="loja.html">Comprar</a>
+                </div>
+            </div>
+        </p>
+    </main>
+
+</body>
+</html>
+</html>

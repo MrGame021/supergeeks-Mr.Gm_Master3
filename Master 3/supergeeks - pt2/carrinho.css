@@ -1,0 +1,247 @@
+main{
+    h1{
+        margin-bottom: 12px;
+    }
+    div{
+        gap: 20px;
+        width: 90%;
+        display: flex;
+        align-content: space-evenly;
+        .cardss{
+            flex-direction: column;
+            div{
+                display: flex;
+                align-items: center;
+                width: 750px;
+                border: 5px solid #5899b9d2;
+                border-radius: 16px;
+                padding: 12px;
+                gap: 15px;
+                background-color: #6cd6fd73;
+                img{
+                    height: 120px;
+                    width: 120px;
+                }
+                label{
+                    width: 600px;
+                    font-size: 25px;
+
+                }
+                #preco{
+                    color: #be2e2eda;
+                    font-weight: bold;
+                }
+            }
+        }
+        .custoGeral{
+            display: flex;
+            flex-direction: column;
+            padding-inline: 40px;
+            border: 5px solid #5899b9d2;
+            border-radius: 16px;
+            background-color: #6cd7fdad;
+            width: 50%;
+            div{
+                display: flex;
+                align-self: center;
+                justify-content: space-between;
+                #tabela2{
+                    color: #be2e2eda;
+                    font-weight: bold;
+                    width: 25%;
+                }
+            }
+            h3{
+                display: flex;
+                justify-content: center;
+                font-size: 40px;
+            }
+            a{
+                display: flex;
+                justify-content: center;
+                align-self: center;
+                margin-top: 80px;
+                padding: 10px;
+                width: 150px;
+                border: 5px solid #5899b9d2;
+                border-radius: 12px;
+                background-color: #9edcf3b7;
+                font-family: monospace;
+                text-decoration: none;
+                color: #ebebeb;
+            }
+            a:hover{
+                transition: 0.09s;
+                background-color: #86d1eccb;
+            }
+        }
+    }
+}
+@media (max-width: 1650px){
+    main > div{
+        .cardss > div{
+            width: 560px;
+            label{
+                width: 420px;
+                font-size: 20px;
+            }
+        }
+        .custoGeral{
+            #tabela{
+                padding: 10px;
+            }
+            #tabela2{
+                padding: 10px;
+            }
+            h3{
+                font-size: 40px;
+            }
+            div{
+                font-size: 25px;
+            }
+            a{
+                width: 120px;
+                margin-top: 50px;
+            }
+        }
+    }
+}
+@media (max-width: 1600px){
+    .custoGeral{
+        label{
+            font-size: 23px;
+        }
+    }
+}
+@media (max-width: 1530px){
+    .custoGeral{
+        label{
+            font-size: 21px;
+        }
+    }
+}
+@media (max-width: 1460px){
+    .custoGeral{
+        a{
+            font-size: 21px;
+        }
+        > div{
+            margin-top: -20px;
+            #tabela{
+                font-size: 19px;
+            }
+            #tabela2{
+                font-size: 19px;
+            }
+        }
+    }
+    main > div > .cardss > div{
+        label{
+            font-size: 16px;
+        }
+        #preco{
+            font-size: 16px;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
+@media (max-width: 1435px){
+    .custoGeral{
+        a{
+            font-size: 18px;
+        }
+        > div{
+            #tabela{
+                font-size: 15px;
+            }
+            #tabela2{
+                font-size: 15px;
+            }
+    
+        }
+    }
+}
+@media (max-width: 1390px){
+    main > div > .cardss > div{
+        width: 450px;
+        label{
+            width: 350px;
+        }
+    }
+}
+@media (max-width: 1260px){
+    main > div > .cardss > div{
+        width: 420px;
+        img{
+            height: 70px;
+            width: 70px;
+        }
+        label{
+            width: 335px;
+        }
+    }
+    main > div > .custoGeral{
+        h3{
+            margin-bottom: 20px;
+            font-size: 35px;
+        }
+        a{
+            margin-top: 20px;
+        }
+        div > #tabela2{
+            text-align: center;
+            align-self: center;
+        }
+    }
+}
+@media (max-width: 1140px){
+    main > h1{
+        margin-bottom: 0px;
+    }
+    main > div{
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .cardss{
+            width: 464px;
+        }
+        .cardss > div{
+            align-self: center;
+        }
+        .custoGeral{
+            width: 374px;
+        }
+        .custoGeral > a{
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+    }
+}
+@media (max-width: 650px){
+    main > div > .cardss > div{
+        label{
+            margin: 0px 0px;
+        }
+    }
+}
+@media (max-width: 580px){
+    main > div > .cardss > div{
+        width: 325px;
+    }
+    main > div > .custoGeral{
+        width: 269px;
+        div{
+            padding: 0px 0px;
+            label{
+                margin: 0px;
+            }
+        }
+        a{
+            font-size: 18px;
+        }
+    }
+}
