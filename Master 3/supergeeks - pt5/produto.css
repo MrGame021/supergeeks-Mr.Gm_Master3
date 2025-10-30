@@ -1,0 +1,10 @@
+.produto{
+    display: flex;
+    gap: 80px;
+    margin: 30px;
+
+    img{
+        height: 200px;
+    }
+    
+}

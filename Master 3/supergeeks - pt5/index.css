@@ -1,0 +1,268 @@
+body{
+    margin: 0px;
+    font-size: 24px;
+    background-color: #ade4f8;
+}
+main{
+    display: flex;
+    background-color: #71b0f0;
+    border: 5px solid #5899b9a2;
+    border-radius: 10px;
+    margin: 150px;
+    margin-top: 50px;
+    font-family: monospace;
+    color: #ebebeb;
+    align-items: center;
+    flex-direction: column;
+    > h1{
+        font-size: 60px;
+        text-align: center;
+        font-family: Calibri;
+        margin-top: 25px;
+        
+        
+    }
+    #doiss > #dois{
+        height: 350px;
+    }
+    p > label{
+        display: flex;
+        align-content: center;
+        text-align: justify;
+        margin: 20px;
+        flex-direction: column;
+    }
+
+        
+        
+        
+
+
+    > p{
+        display: flex;
+        margin-left: 80px;
+        margin-right: 80px;
+        text-align: justify;
+        align-self: normal; 
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+nav{
+    height: 150px;
+    background-color: #71b0f0;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    border-bottom: 8px solid #5899b97e;
+
+    > .icon{
+        display: none;
+        height: 60px;
+    }
+    > input{
+        padding: 8px;
+        border-radius: 16px;
+        border: none;
+        width: 250px;
+        font-size: 20px;
+        font-family: 'Courier New';
+    }
+    > img{
+        height: 125px;
+    }
+    > div{
+        display: flex;
+        gap: 10px;
+        color: #ebebeb;
+        > a{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #ebebeb;
+            background-color:#9edcf3ad;
+            border-radius: 8px;
+            border: 5px solid #579ec2c7;
+            font-family: monospace;
+            text-decoration: none;
+            transition: 0.45s;
+            padding: 8px;
+            width: 75px;
+            height: 75px;
+            justify-content: center;
+
+            > label:hover{
+                cursor: pointer;
+            }
+        }
+        > #carrinho > label{
+            font-size: 23px;
+        }
+            
+        > a:hover{
+            padding: 8px 16px;
+            > i{
+                text-decoration: none;
+            }
+        }
+    }
+}
+.dropdown{
+    display: flex;
+    color: #ebebeb;
+    background-color:#9edcf3ad;
+    border-radius: 8px;
+    border: 5px solid #579ec2c7;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    display: none;
+    flex-direction: column;
+    > div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        align-self: center;
+        margin-top: 205px;
+        border: 5px solid #579ec2c7;
+        background-color: #8fcef2;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        font-family: 'Courier New';
+        padding: 8px;
+        display: none;
+        font-size: 25px;
+        position: absolute;
+        gap: 5px;
+        text-decoration: none;
+        color: #ebebeb;
+
+    }
+}
+.dropdown:hover > div{
+    display: flex;
+    > a{
+        text-decoration: none;
+        color: #ebebeb;
+    }
+    > a:hover{
+        cursor: pointer;
+    }
+
+}
+@media (max-width: 1440px){
+    nav{
+        height: 100px;
+        > img{
+            height: 75px;
+        }
+        > div > a{
+            font-size: 30px;
+            height: 40px;
+            width: 40px;
+            > img{
+                height: 75px;
+            }
+            > label{
+                display: none;
+            }
+        }
+        > div > a:hover{
+            transition: 0.3125s;
+            padding: 10px 10px;
+        }
+    }
+    main{
+        #dois{
+            display: flex;
+            height: 300px;
+        }
+    }
+}
+@media (max-width: 1040px){
+    nav > div > a{
+        display: none;
+    }
+    .dropdown{
+        display: flex;
+    }
+}
+@media (max-width: 950px){
+    main{
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+}
+@media (max-width: 825px){
+    nav{
+        height: 85px;
+        > img{
+            height: 55px;
+        }
+    }
+}
+@media (max-width: 650px){
+    nav{
+        > img{
+            display: none;
+        }
+        > input{
+            border-radius: 16px;
+            border: none;
+            width: 175px;
+            font-size: 15px;
+        }
+        > .icon{
+            display: flex;
+        }
+    }
+    main{
+        margin-left: 20px;
+        margin-right: 20px;
+        > h1{
+            font-size: 40px;
+        }
+        > p{
+            font-size: 15px;
+            margin-left: 20px;
+            margin-right: 20px;
+
+        }
+        label{
+            font-size: 15px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        ol{
+            font-size: 15px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        #doiss > #dois{
+        height: 170px;
+        }
+
+        #tres{
+            display: flex;
+            align-content: center;
+            text-align: justify;
+            margin: 20px;
+        }
+    }
+    .dropdown{
+        font-size: 20px;
+        height: 20px;
+        width: 20px;
+        > div{
+            gap: 4px;
+            padding: 8px 5px;
+            margin-top: 193px;
+        }
+    }
+}

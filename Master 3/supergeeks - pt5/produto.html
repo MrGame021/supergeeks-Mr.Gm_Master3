@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muri's Arts Biscuit</title>
+    <link rel="stylesheet" href="configuracoes_gerais.css">
+    <link rel="stylesheet" href="produto.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="Icon" href="fotos/icon.jpg">
+
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <nav>
+        <div class="icon">
+            <img src="fotos/icon.png" alt="Ícone do site">
+        </div>
+        <img src="fotos/logo.jpg" alt="Logo do site">
+        <input type="text" placeholder="Search...">
+        <div id="redirect">
+            <a href="index.html"><i class="fa fa-home"></i><label>Home</label></a>
+            <a href="loja.html"><i class="fa fa-cart-plus"></i><label>Loja</label></a>
+            <a id="carrinho" href="carrinho.html"><i class="fa fa-shopping-cart"></i><label>Compras</label></a>
+            <a href="login.html"><i class="fa fa-user-circle"></i><label>Login</label></a>
+            
+            <div class="dropdown">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+                <div>
+                    <a href="index.hmtl"><i class="fa fa-home"></i></a>
+                    <a href="loja.html"><i class="fa fa-cart-plus"></i></a>
+                    <a href="carrinho.html"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="login.html"><i class="fa fa-user-circle"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="produto">
+            <img id='imgNum' src="" alt="">
+            <div class="txt">
+                <h1 id="produtoNum">NOME DO PRODUTO</h1>
+                <p id="descNum">Descrição do produto</p>
+            </div>
+            
+        </div>
+
+    </main>
+
+    <script>showCards()</script>
+
+</body>
+</html>
