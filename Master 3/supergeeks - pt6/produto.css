@@ -1,0 +1,34 @@
+.produto{
+    display: flex;
+    gap: 80px;
+    margin: 30px;
+
+    img{
+        height: 200px;
+    }
+    
+}
+#preco{
+    color: #be2e2e;
+}
+
+#adicionar2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ebebeb;
+    border-radius: 16px;
+    border: 5px solid #579ec2c7;
+    background-color:#9edcf3ad;
+    font-size: 15px;
+    padding: 8px;
+    width: 280px;
+    height: 40px;
+    text-align: center;
+    position: absolute;
+    margin-left: 275px;
+    margin-top: 180px;
+    font-family: monospace;
+    font-size: 20px;
+    
+}
